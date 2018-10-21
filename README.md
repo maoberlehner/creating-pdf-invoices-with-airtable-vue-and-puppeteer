@@ -7,7 +7,7 @@ This is an example project for the following article: [Creating PDF Invoices wit
 
 ## Build Setup
 
-Before you get started, make sure to change the API key in `src/utils/airtable.js`.
+Before you get started, make sure to change the API key in `src/utils/airtable.js`!
 
 ```bash
 # Install dependencies.
@@ -15,6 +15,8 @@ npm install
 
 # Serve with hot reload.
 npm run serve
+# Create a PDF invoice.
+node bin/pdf.js YOUR-INVOICE-ID
 
 # Build for production with minification.
 npm run build
