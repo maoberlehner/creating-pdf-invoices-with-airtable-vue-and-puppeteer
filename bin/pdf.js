@@ -16,8 +16,8 @@ const invoiceId = process.argv[2];
     displayHeaderFooter: true,
     // HTML in the header and footer
     // templates is unstyled by default.
-    // You have to use inline styles
-    // to apply styling to them.
+    // You have to use inline styles for
+    // styling.
     footerTemplate: `
       <style>
       div {
