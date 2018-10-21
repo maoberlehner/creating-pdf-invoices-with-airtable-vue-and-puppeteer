@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve --port 1337 --open",
+    "serve": "vue-cli-service serve --port 1337",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
