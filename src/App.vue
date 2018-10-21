@@ -59,7 +59,7 @@
         </div>
         <div class="tasks__row tasks__row--foot">
           <div class="tasks__column tasks__column--number">
-            <strong>Total € {{ total }}</strong>
+            <strong>Total € {{ invoice.Total }}</strong>
           </div>
         </div>
       </div>
@@ -91,11 +91,6 @@ export default {
       loaded: false,
       tasks: [],
     };
-  },
-  computed: {
-    total() {
-      return this.tasks.length && this.tasks.reduce((total, x) => total + x.Cost, 0);
-    },
   },
   created() {
     this.fetchInvoiceData();
